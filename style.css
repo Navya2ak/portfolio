@@ -1,24 +1,30 @@
-*{
-    padding :0;
+* {
+    padding: 0;
     margin: 0;
 }
-body{
-    background: linear-gradient(to right, #262c2f, #313432);
-}
-.navigators{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: flex-end;
-    column-gap: 25px;
-    padding: 20px;
+
+body {
+    background: linear-gradient(to right, #151111, #151111);
+    overflow: hidden;
+   
 }
 
-.navigators .titles{
+.navigators {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    column-gap: 25px;
+    padding: 50px;
+    margin-right: 20px;
+}
+
+.navigators .titles {
     color: aliceblue;
     font-size: 1.5em;
-    word-spacing:100px;
+    word-spacing: 100px;
 }
-img{
+
+img {
     height: 400px;
     width: 400px;
     padding: 100px 280px;
@@ -33,6 +39,7 @@ img{
     text-align: center;
     padding: 196px 177px;
 }
+
 .pre_title {
     font-size: 90px;
     color: rgb(96, 96, 94);
@@ -40,51 +47,52 @@ img{
     margin: -416px 913px;
     padding: 135px -31px;
 }
-p{
-    padding :0;
-    margin: 0; 
+
+
+.ellipse1 {
+    margin: -28px -300px;
+    position: absolute;
 }
 
-.ellipse{
-      width: 200px;
-      height: 100px;
-      background: linear-gradient(to right, #262c2f , #745AAA);
-      clip-path: polygon(
-          calc(100% * var(--p1, 0.2)) 0,
-          100% calc(100% * var(--p2, 0.2)),
-          calc(100% * var(--p3, 0.8)) 100%,
-          0 calc(100% * var(--p4, 0.8))
-      );
+.ellipse2 {
+    margin: -280px -30px;
+    position: absolute;
 }
 
-@keyframes changeShape {
-    0%, 100% {
-        --p1: 0.2;
-        --p2: 0.2;
-        --p3: 0.8;
-        --p4: 0.8;
-    }
-    25% {
-        --p1: 0.5;
-        --p2: 0.2;
-        --p3: 0.8;
-        --p4: 0.8;
-    }
-    50% {
-        --p1: 0.2;
-        --p2: 0.5;
-        --p3: 0.8;
-        --p4: 0.8;
-    }
-    75% {
-        --p1: 0.2;
-        --p2: 0.2;
-        --p3: 0.8;
-        --p4: 0.5;
-    }
+.ellipse3 {
+    margin: -100px -100px;
+    position: absolute;
 }
 
-/* Apply animation to the shape */
-.ellipse:hover {
-    animation: changeShape 3s infinite alternate;
+a {
+    text-decoration: none;
+    color: aliceblue;
+    ;
+}
+
+.about_heading {
+    font-size: 80px;
+    color: beige;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 170px;
+    margin-bottom: -82px;
+    margin-left: 426px;
+    padding-bottom: 0px;
+}
+
+.about_description {
+    font-size: 20px;
+    color: beige;
+    margin: 149px 421px;
+    padding-top: -12px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.page{
+    font-size: 40px;
+    color: rgb(96, 96, 94);
+    margin: 57px 58px;
 }
