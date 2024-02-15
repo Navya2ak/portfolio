@@ -69,26 +69,32 @@ body {
 }
 
 .ellipse1 {
-  position: absolute;
-  top: 10px;
-  left: 40px;
+    position: absolute;
+    top: 3001px;
+    left: -100px;
+    padding-bottom: 10px;
+
 }
 .ellipse2 {
   position: absolute;
-  top: 5px;
-  right: 40px;
+  top: 643px;
+  left: 169px;
+  padding-top: 10px;
 }
 
 .ellipse3 {
   position: absolute;
-  bottom: -10px;
-  left: 40px;
+  bottom: 15px;
+  left: 349px;
+  padding-left: 10px;
 }
 
 .ellipse4 {
   position: absolute;
-  bottom: -10px;
-  right: 40px;
+  bottom: -20px;
+  left: 40px;
+  padding-right: 10px;
+
 }
 
 a {
