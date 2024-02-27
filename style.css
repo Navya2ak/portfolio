@@ -133,3 +133,37 @@ a {
   height: 20px;
   width: 20px;
 }
+.line {
+    width: 536px;
+    height: 0px;
+    border: 1px solid #ffffff;
+    margin-left: 844px;
+    margin-top: 153px;
+}
+.upper_line1 {
+    width: 438px;
+    height: 0px;
+    border: 1px solid #c32a2a;
+    margin-left: 843px;
+    margin-top: -11px;
+    padding: 2px;
+
+}
+.upper_line2 {
+    width: 288px;
+    height: 0px;
+    border: 1px solid #c32a2a;
+    margin-left: 843px;
+    margin-top: -11px;
+    padding: 2px;
+
+}
+
+.upper_line3 {
+    width: 138px;
+    height: 0px;
+    border: 1px solid #c32a2a;
+    margin-left: 843px;
+    margin-top: -11px;
+    padding: 2px;
+}
