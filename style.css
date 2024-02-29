@@ -12,11 +12,10 @@ body {
 }
 
 .container {
-  z-index: 40;
-  position: relative;
-  margin-top: 20px;
+    z-index: 40;
+    position: relative;
+    margin-top: 100px;
 }
-
 .navigators {
   display: flex;
   flex-wrap: wrap;
