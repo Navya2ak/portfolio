@@ -103,14 +103,15 @@ a {
 }
 
 .about_heading {
-  font-size: 80px;
-  color: beige;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  margin-top: 170px;
-  margin-bottom: -82px;
-  margin-left: 426px;
-  padding-bottom: 0px;
+      font-size: 80px;
+    color: beige;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin-top: 45px;
+    margin-bottom: -44px;
+    margin-left: 426px;
+    padding-bottom: 0px;
 }
+
 
 .about_description {
   font-size: 20px;
@@ -136,23 +137,23 @@ a {
 .line {
     width: 536px;
     height: 0px;
-    border: 1px solid #ffffff;
+    border: 1px solid #917373;
     margin-left: 844px;
     margin-top: 153px;
 }
 .upper_line1 {
     width: 438px;
     height: 0px;
-    border: 1px solid #c32a2a;
+    border: 1px  solid beige;
     margin-left: 843px;
     margin-top: -11px;
     padding: 2px;
 
 }
 .upper_line2 {
-    width: 288px;
+    width: 328px;
     height: 0px;
-    border: 1px solid #c32a2a;
+    border: 1px solid beige;
     margin-left: 843px;
     margin-top: -11px;
     padding: 2px;
@@ -162,8 +163,27 @@ a {
 .upper_line3 {
     width: 138px;
     height: 0px;
-    border: 1px solid #c32a2a;
+    border: 1px solid beige;
     margin-left: 843px;
     margin-top: -11px;
     padding: 2px;
+}
+
+.upper_line4 {
+    width: 238px;
+    height: 0px;
+    border: 1px solid beige;
+    margin-left: 843px;
+    margin-top: -11px;
+    padding: 2px;
+}
+
+.skill_name{
+    width: 138px;
+    height: 0px;
+    margin-left: 699px;
+    margin-top: -28px;
+    padding: 2px;
+    color: #4f4c4d;
+    font-size: 35px;
 }
